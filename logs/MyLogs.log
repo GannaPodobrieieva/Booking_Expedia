@@ -1,0 +1,90 @@
+[INFO ] 2020-04-15 10:13:55.533 [TestNG-tests-2] SearchPage - Navigate to flights tab
+[INFO ] 2020-04-15 10:14:05.309 [TestNG-tests-2] SearchPage - Origin text box element found
+[INFO ] 2020-04-15 10:14:09.559 [TestNG-tests-2] SearchPage - Enter origin city as New York
+[INFO ] 2020-04-15 10:14:09.581 [TestNG-tests-2] SearchPage - Destination text box element found
+[INFO ] 2020-04-15 10:14:14.297 [TestNG-tests-2] SearchPage - Enter destination city as Chicago
+[INFO ] 2020-04-15 10:14:16.225 [TestNG-tests-2] SearchPage - Enter departure date as 04/18/2020
+[INFO ] 2020-04-15 10:14:20.201 [TestNG-tests-2] SearchPage - Enter return date as 04/28/2020
+[INFO ] 2020-04-15 10:14:23.698 [TestNG-tests-2] SearchPage - Navigate to flights tab
+[INFO ] 2020-04-15 10:14:28.696 [TestNG-tests-2] SearchPage - Origin text box element found
+[INFO ] 2020-04-15 10:14:39.014 [TestNG-tests-2] SearchPage - Enter origin city as New York
+[INFO ] 2020-04-15 10:14:39.055 [TestNG-tests-2] SearchPage - Destination text box element found
+[INFO ] 2020-04-15 10:14:41.993 [TestNG-tests-2] SearchPage - Enter destination city as Boston
+[INFO ] 2020-04-15 10:14:43.120 [TestNG-tests-2] SearchPage - Enter departure date as 05/18/2020
+[INFO ] 2020-04-15 10:14:44.819 [TestNG-tests-2] SearchPage - Enter return date as 05/28/2020
+[INFO ] 2020-04-15 10:16:44.618 [TestNG-tests-2] SearchPage - Navigate to flights tab
+[INFO ] 2020-04-15 10:16:58.666 [TestNG-tests-2] SearchPage - Origin text box element found
+[INFO ] 2020-04-15 10:17:03.248 [TestNG-tests-1] SearchPage - Navigate to flights tab
+[INFO ] 2020-04-15 10:17:07.467 [TestNG-tests-2] SearchPage - Enter origin city as New York
+[INFO ] 2020-04-15 10:17:07.636 [TestNG-tests-2] SearchPage - Destination text box element found
+[INFO ] 2020-04-15 10:17:12.944 [TestNG-tests-2] SearchPage - Enter destination city as Chicago
+[INFO ] 2020-04-15 10:17:14.477 [TestNG-tests-2] SearchPage - Enter departure date as 04/18/2020
+[INFO ] 2020-04-15 10:17:17.245 [TestNG-tests-2] SearchPage - Enter return date as 04/28/2020
+[INFO ] 2020-04-15 10:17:17.466 [TestNG-tests-1] SearchPage - Origin text box element found
+[INFO ] 2020-04-15 10:17:21.266 [TestNG-tests-2] SearchPage - Navigate to flights tab
+[INFO ] 2020-04-15 10:17:22.750 [TestNG-tests-1] SearchPage - Enter origin city as New York
+[INFO ] 2020-04-15 10:17:27.368 [TestNG-tests-2] SearchPage - Origin text box element found
+[INFO ] 2020-04-15 10:17:30.344 [TestNG-tests-1] SearchPage - Destination text box element found
+[INFO ] 2020-04-15 10:17:31.252 [TestNG-tests-2] SearchPage - Enter origin city as New York
+[INFO ] 2020-04-15 10:17:31.334 [TestNG-tests-2] SearchPage - Destination text box element found
+[INFO ] 2020-04-15 10:17:33.297 [TestNG-tests-1] SearchPage - Enter destination city as Chicago
+[INFO ] 2020-04-15 10:17:33.795 [TestNG-tests-1] SearchPage - Enter departure date as 04/18/2020
+[INFO ] 2020-04-15 10:17:34.684 [TestNG-tests-1] SearchPage - Enter return date as 04/28/2020
+[INFO ] 2020-04-15 10:17:34.834 [TestNG-tests-2] SearchPage - Enter destination city as Boston
+[INFO ] 2020-04-15 10:17:36.301 [TestNG-tests-2] SearchPage - Enter departure date as 05/18/2020
+[INFO ] 2020-04-15 10:17:38.585 [TestNG-tests-1] SearchPage - Navigate to flights tab
+[INFO ] 2020-04-15 10:17:40.223 [TestNG-tests-2] SearchPage - Enter return date as 05/28/2020
+[INFO ] 2020-04-15 10:17:43.213 [TestNG-tests-1] SearchPage - Origin text box element found
+[INFO ] 2020-04-15 10:17:46.168 [TestNG-tests-1] SearchPage - Enter origin city as New York
+[INFO ] 2020-04-15 10:17:46.211 [TestNG-tests-1] SearchPage - Destination text box element found
+[INFO ] 2020-04-15 10:17:48.705 [TestNG-tests-1] SearchPage - Enter destination city as Boston
+[INFO ] 2020-04-15 10:17:49.173 [TestNG-tests-1] SearchPage - Enter departure date as 05/18/2020
+[INFO ] 2020-04-15 10:17:49.983 [TestNG-tests-1] SearchPage - Enter return date as 05/28/2020
+[INFO ] 2020-05-26 17:30:13.137 [TestNG-tests-2] TestNGParameters - [fail]
+[INFO ] 2020-05-26 17:30:18.717 [TestNG-tests-1] SearchPage - Navigate to flights tab
+[INFO ] 2020-05-26 17:30:22.335 [TestNG-tests-1] SearchPage - Origin text box element found
+[INFO ] 2020-05-26 17:30:23.848 [TestNG-tests-2] TestNGParameters - [fail]
+[INFO ] 2020-05-26 17:30:25.453 [TestNG-tests-1] SearchPage - Enter origin city as New York
+[INFO ] 2020-05-26 17:30:25.505 [TestNG-tests-1] SearchPage - Destination text box element found
+[INFO ] 2020-05-26 17:30:28.325 [TestNG-tests-1] SearchPage - Enter destination city as Chicago
+[INFO ] 2020-05-26 17:30:28.777 [TestNG-tests-1] SearchPage - Enter departure date as 04/18/2020
+[INFO ] 2020-05-26 17:30:29.595 [TestNG-tests-1] SearchPage - Enter return date as 04/28/2020
+[INFO ] 2020-05-26 17:30:33.044 [TestNG-tests-1] SearchPage - Navigate to flights tab
+[INFO ] 2020-05-26 17:30:37.103 [TestNG-tests-1] SearchPage - Origin text box element found
+[INFO ] 2020-05-26 17:30:40.010 [TestNG-tests-1] SearchPage - Enter origin city as New York
+[INFO ] 2020-05-26 17:30:40.033 [TestNG-tests-1] SearchPage - Destination text box element found
+[INFO ] 2020-05-26 17:30:42.778 [TestNG-tests-1] SearchPage - Enter destination city as Boston
+[INFO ] 2020-05-26 17:30:43.166 [TestNG-tests-1] SearchPage - Enter departure date as 05/18/2020
+[INFO ] 2020-05-26 17:30:43.910 [TestNG-tests-1] SearchPage - Enter return date as 05/28/2020
+[INFO ] 2020-06-25 12:02:37.082 [TestNG-tests-1] TestNGParameters - [fail]
+[INFO ] 2020-06-25 12:02:47.692 [TestNG-tests-1] TestNGParameters - [fail]
+[INFO ] 2020-06-25 12:07:21.605 [TestNG-tests-1] SearchPage - Navigate to flights tab
+[INFO ] 2020-06-25 12:07:27.731 [TestNG-tests-1] SearchPage - Origin text box element found
+[INFO ] 2020-06-25 12:07:30.689 [TestNG-tests-1] SearchPage - Enter origin city as New York
+[INFO ] 2020-06-25 12:07:30.710 [TestNG-tests-1] SearchPage - Destination text box element found
+[INFO ] 2020-06-25 12:07:33.184 [TestNG-tests-1] SearchPage - Enter destination city as Chicago
+[INFO ] 2020-06-25 12:07:33.792 [TestNG-tests-1] SearchPage - Enter departure date as 06/26/2020
+[INFO ] 2020-06-25 12:07:34.547 [TestNG-tests-1] SearchPage - Enter return date as 06/28/2020
+[INFO ] 2020-06-25 12:07:43.023 [TestNG-tests-1] SearchPage - Navigate to flights tab
+[INFO ] 2020-06-25 12:07:46.982 [TestNG-tests-1] SearchPage - Origin text box element found
+[INFO ] 2020-06-25 12:07:49.999 [TestNG-tests-1] SearchPage - Enter origin city as New York
+[INFO ] 2020-06-25 12:07:50.084 [TestNG-tests-1] SearchPage - Destination text box element found
+[INFO ] 2020-06-25 12:07:53.319 [TestNG-tests-1] SearchPage - Enter destination city as Boston
+[INFO ] 2020-06-25 12:07:53.569 [TestNG-tests-1] SearchPage - Enter departure date as 06/26/2020
+[INFO ] 2020-06-25 12:07:53.949 [TestNG-tests-1] SearchPage - Enter return date as 06/28/2020
+[INFO ] 2020-06-25 12:13:40.683 [TestNG-tests-2] SearchPage - Navigate to flights tab
+[INFO ] 2020-06-25 12:13:55.536 [TestNG-tests-2] SearchPage - Origin text box element found
+[INFO ] 2020-06-25 12:13:59.527 [TestNG-tests-2] SearchPage - Enter origin city as New York
+[INFO ] 2020-06-25 12:13:59.554 [TestNG-tests-2] SearchPage - Destination text box element found
+[INFO ] 2020-06-25 12:14:00.696 [TestNG-tests-1] TestNGParameters - [fail]
+[INFO ] 2020-06-25 12:14:03.357 [TestNG-tests-2] SearchPage - Enter destination city as Chicago
+[INFO ] 2020-06-25 12:14:04.457 [TestNG-tests-2] SearchPage - Enter departure date as 06/26/2020
+[INFO ] 2020-06-25 12:14:06.120 [TestNG-tests-2] SearchPage - Enter return date as 06/28/2020
+[INFO ] 2020-06-25 12:14:09.542 [TestNG-tests-2] SearchPage - Navigate to flights tab
+[INFO ] 2020-06-25 12:14:11.302 [TestNG-tests-1] TestNGParameters - [fail]
+[INFO ] 2020-06-25 12:14:14.113 [TestNG-tests-2] SearchPage - Origin text box element found
+[INFO ] 2020-06-25 12:14:17.471 [TestNG-tests-2] SearchPage - Enter origin city as New York
+[INFO ] 2020-06-25 12:14:17.539 [TestNG-tests-2] SearchPage - Destination text box element found
+[INFO ] 2020-06-25 12:14:20.774 [TestNG-tests-2] SearchPage - Enter destination city as Boston
+[INFO ] 2020-06-25 12:14:21.737 [TestNG-tests-2] SearchPage - Enter departure date as 06/26/2020
+[INFO ] 2020-06-25 12:14:22.853 [TestNG-tests-2] SearchPage - Enter return date as 06/28/2020

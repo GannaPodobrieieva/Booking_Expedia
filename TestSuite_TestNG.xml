@@ -1,0 +1,35 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" parallel="tests">
+<test name="FireFox Test">
+<parameter name="browserType" value="firefox" />
+<parameter name="origin" value="New York" />
+<parameter name="dest" value="Chicago" />
+<parameter name="depDate" value="06/26/2020" />
+<parameter name="retDate" value="06/28/2020" />
+	<classes>
+		<class name="Travel.Booking.TestNGParameters">
+		<methods>
+			<include name="searchFlightsWithMultiData" />
+		</methods>
+		</class>
+	</classes>
+</test>
+
+<test name="Chrome Test">
+<parameter name="browserType" value="chrome" />
+<parameter name="origin" value="New York" />
+<parameter name="dest" value="Chicago" />
+<parameter name="depDate" value="06/26/2020" />
+<parameter name="retDate" value="06/28/2020" />
+	<classes>
+		<class name="Travel.Booking.TestNGParameters">
+		<methods>
+			<include name="searchFlightsWithMultiData" />
+		</methods>
+		</class>
+	</classes>
+</test>
+
+
+</suite>

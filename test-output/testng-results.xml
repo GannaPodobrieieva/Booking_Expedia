@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="2" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="84501" started-at="2020-06-25T09:13:11Z" finished-at="2020-06-25T09:14:35Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="76037" started-at="2020-06-25T09:13:11Z" finished-at="2020-06-25T09:14:27Z">
+      <class name="Travel.Booking.TestNGParameters">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Travel.Booking.TestNGParameters@3590fc5b]" name="beforeClass" is-config="true" duration-ms="24673" started-at="2020-06-25T09:13:11Z" finished-at="2020-06-25T09:13:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="searchFlightsWithMultiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Travel.Booking.TestNGParameters@3590fc5b]" name="searchFlightsWithMultiData" duration-ms="33263" started-at="2020-06-25T09:13:35Z" data-provider="fieldsInputs" finished-at="2020-06-25T09:14:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[06/26/2020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[06/28/2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightsWithMultiData -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Travel.Booking.TestNGParameters@3590fc5b]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-06-25T09:14:09Z" finished-at="2020-06-25T09:14:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchFlightsWithMultiData status=SUCCESS method=TestNGParameters.searchFlightsWithMultiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Travel.Booking.TestNGParameters@3590fc5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="searchFlightsWithMultiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Travel.Booking.TestNGParameters@3590fc5b]" name="searchFlightsWithMultiData" duration-ms="16718" started-at="2020-06-25T09:14:09Z" data-provider="fieldsInputs" finished-at="2020-06-25T09:14:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Boston]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[06/26/2020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[06/28/2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightsWithMultiData -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Travel.Booking.TestNGParameters@3590fc5b]" name="tearDown" is-config="true" duration-ms="4" started-at="2020-06-25T09:14:25Z" finished-at="2020-06-25T09:14:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchFlightsWithMultiData status=SUCCESS method=TestNGParameters.searchFlightsWithMultiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Travel.Booking.TestNGParameters@3590fc5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Travel.Booking.TestNGParameters@3590fc5b]" name="afterClass" is-config="true" duration-ms="1293" started-at="2020-06-25T09:14:25Z" finished-at="2020-06-25T09:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Travel.Booking.TestNGParameters -->
+    </test> <!-- Chrome Test -->
+    <test name="FireFox Test" duration-ms="84501" started-at="2020-06-25T09:13:11Z" finished-at="2020-06-25T09:14:35Z">
+      <class name="Travel.Booking.TestNGParameters">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Travel.Booking.TestNGParameters@4562e04d]" name="beforeClass" is-config="true" duration-ms="38095" started-at="2020-06-25T09:13:11Z" finished-at="2020-06-25T09:13:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="searchFlightsWithMultiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Travel.Booking.TestNGParameters@4562e04d]" name="searchFlightsWithMultiData" duration-ms="10328" started-at="2020-06-25T09:13:49Z" data-provider="fieldsInputs" finished-at="2020-06-25T09:13:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[06/26/2020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[06/28/2020]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #tab\-flight\-tab\-hp
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'DESKTOP-PPUIDRV', ip: '192.168.1.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200602222727, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 8836, moz:profile: C:\Users\Hanna\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d5c96eb6-a0f4-44f9-a048-9c4bf68af5f0
+*** Element info: {Using=id, value=tab-flight-tab-hp}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #tab\-flight\-tab\-hp
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'DESKTOP-PPUIDRV', ip: '192.168.1.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200602222727, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 8836, moz:profile: C:\Users\Hanna\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d5c96eb6-a0f4-44f9-a048-9c4bf68af5f0
+*** Element info: {Using=id, value=tab-flight-tab-hp}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:416)
+at org.openqa.selenium.By$ById.findElement(By.java:218)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at Travel.Booking.SearchPage.navigateToFlightsTab(SearchPage.java:150)
+at Travel.Booking.TestNGParameters.searchFlightsWithMultiData(TestNGParameters.java:61)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightsWithMultiData -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Travel.Booking.TestNGParameters@4562e04d]" name="tearDown" is-config="true" duration-ms="1096" started-at="2020-06-25T09:13:59Z" finished-at="2020-06-25T09:14:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchFlightsWithMultiData status=FAILURE method=TestNGParameters.searchFlightsWithMultiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Travel.Booking.TestNGParameters@4562e04d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="searchFlightsWithMultiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Travel.Booking.TestNGParameters@4562e04d]" name="searchFlightsWithMultiData" duration-ms="10035" started-at="2020-06-25T09:14:00Z" data-provider="fieldsInputs" finished-at="2020-06-25T09:14:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Boston]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[06/26/2020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[06/28/2020]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #tab\-flight\-tab\-hp
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'DESKTOP-PPUIDRV', ip: '192.168.1.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200602222727, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 8836, moz:profile: C:\Users\Hanna\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d5c96eb6-a0f4-44f9-a048-9c4bf68af5f0
+*** Element info: {Using=id, value=tab-flight-tab-hp}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #tab\-flight\-tab\-hp
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'DESKTOP-PPUIDRV', ip: '192.168.1.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200602222727, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 8836, moz:profile: C:\Users\Hanna\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d5c96eb6-a0f4-44f9-a048-9c4bf68af5f0
+*** Element info: {Using=id, value=tab-flight-tab-hp}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:416)
+at org.openqa.selenium.By$ById.findElement(By.java:218)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at Travel.Booking.SearchPage.navigateToFlightsTab(SearchPage.java:150)
+at Travel.Booking.TestNGParameters.searchFlightsWithMultiData(TestNGParameters.java:61)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightsWithMultiData -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Travel.Booking.TestNGParameters@4562e04d]" name="tearDown" is-config="true" duration-ms="563" started-at="2020-06-25T09:14:10Z" finished-at="2020-06-25T09:14:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchFlightsWithMultiData status=FAILURE method=TestNGParameters.searchFlightsWithMultiData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Travel.Booking.TestNGParameters@4562e04d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Travel.Booking.TestNGParameters@4562e04d]" name="afterClass" is-config="true" duration-ms="24319" started-at="2020-06-25T09:14:11Z" finished-at="2020-06-25T09:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Travel.Booking.TestNGParameters -->
+    </test> <!-- FireFox Test -->
+  </suite> <!-- TestSuite -->
+</testng-results>

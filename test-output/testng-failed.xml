@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="tests">
+  <test thread-count="5" name="FireFox Test(failed)" parallel="tests">
+    <parameter name="origin" value="New York"/>
+    <parameter name="dest" value="Chicago"/>
+    <parameter name="retDate" value="06/28/2020"/>
+    <parameter name="depDate" value="06/26/2020"/>
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="Travel.Booking.TestNGParameters">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="searchFlightsWithMultiData" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Travel.Booking.TestNGParameters -->
+    </classes>
+  </test> <!-- FireFox Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
